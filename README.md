@@ -1,4 +1,4 @@
-# this is a React Admin Dashboard Frontend built with React.js amnd couple of npm packages keeping a simple UI so user can understand it simply.
+# this is a React Admin Dashboard Frontend built with React.js and couple of npm packages , keeping a simple UI so user can understand it simply.
 
 # Getting Started with Create React App
 
