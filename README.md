@@ -1,3 +1,5 @@
+this is a React Admin Dashboard Frontend built with React.js amnd couple of npm packages keeping a simple UI so user can understand it simply.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
