@@ -1,24 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+import SideNav from './component/SideNav.jsx'
+import { grey,green,lime } from '@mui/material/colors';
+import { ThemeProvider, createTheme } from "@mui/material/styles";
+import { Profile } from './component/Profile';
+
+const theme=createTheme({
+  palette:{
+    primary:{
+      main:grey[500]
+    },
+    secondary:{
+      main:green[500]
+    },
+    info:{
+      main:lime[500]
+    },
+    success:{
+      main:grey[50]
+    }
+  }
+})
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <div className="App">
+        <Profile/>
+        <SideNav />
+      </div>
+    </ThemeProvider>
   );
 }
 

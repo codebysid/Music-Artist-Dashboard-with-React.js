@@ -1,0 +1,39 @@
+.sideNavBox{
+    height: 100vh;
+    width: 6vw;
+    background-color: #191A19;
+    color: white;
+}
+
+.sideNavIcons{
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vw;
+}
+.sideNavIcons  *{
+    flex: 1 1 inherit;
+}
+
+.sideNavIcons .NavIcons{
+    padding: 0.5vw;
+    border-radius: 2vw;
+}
+.NavIcons:hover{
+    background-color: #4E9F3D;
+    color: white;
+    /* padding: 1vw; */
+    box-shadow:
+    0 0 7px #4E9F3D,
+    0 0 10px #4E9F3D,
+    0 0 42px #4E9F3D,
+    0 0 82px #4E9F3D,
+    0 0 92px #4E9F3D;
+}
+.baap{
+    display: flex;
+    flex-flow: row wrap;
+}
+

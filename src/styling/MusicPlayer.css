@@ -1,0 +1,34 @@
+.musicPlayerDiv{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.musicPlayerDiv img{
+    width: 80%;
+    height: 25vh;
+    margin: 1vw 1vw;
+    border-radius: 2vw;
+}
+
+.playPauseIcon{
+    font-size: 3vw;
+    position: relative;
+    bottom: 2.5vw;
+}
+.playPauseIcon:hover{
+    cursor: pointer;
+}
+
+.pauseIcon{
+    color: red;
+    background-color: white;
+    border-radius: 2vw;
+}
+
+.playIcon{
+    color: var(--brightGreen);
+    background-color: white;
+    border-radius: 2vw;
+}

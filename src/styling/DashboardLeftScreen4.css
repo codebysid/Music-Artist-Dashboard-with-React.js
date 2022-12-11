@@ -1,0 +1,42 @@
+:root{
+    --brightGreen:#4E9F3D;
+    --accentColor:#1E5128;
+    --backgroundColor:#D8E9A8;
+}
+.userReview{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1vw;
+    margin: 1.5vw 1vw;
+}
+.userName{
+    color: var(--brightGreen);
+}
+.review{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.userDetail{
+    display: flex;
+    flex-flow: column wrap;
+}
+.performance .reviewLabel{
+    margin: 1vw 1vw;
+}
+.showMoreReviewsButton{
+    text-decoration:none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #191A19;
+    float: right;
+    margin: 0 1vw;
+    padding: 0.3vw 0.8vw;
+    font-size: 0.9vw;
+    background-color: var(--brightGreen);
+    border-radius: 2vw;
+    font-weight: bolder;
+}
+.showMoreReviewsButton:hover{
+    background-color: var(--accentColor);
+    color: var(--brightGreen);
+}

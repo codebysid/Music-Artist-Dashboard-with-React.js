@@ -1,0 +1,89 @@
+:root{
+    --brightGreen:#4E9F3D;
+    --accentColor:#1E5128;
+    --backgroundColor:#D8E9A8;
+    --leftScreenBG:#191A19;
+}
+.releaseLabel{
+    margin-left: 1vw;
+}
+.songList{
+    margin: 1vw 0;
+}
+.allRelease{
+    background-color: var(--brightGreen);
+    color: var(--leftScreenBG);
+    padding: 0.3vw 0.8vw;
+    border-radius: 2vw;
+    font-size: 0.9vw;
+    font-weight: bolder;
+    font-size: 0.9vw;
+}
+.allRelease:hover{
+    background-color: var(--accentColor);
+    color: var(--brightGreen);
+    cursor: pointer;
+}
+
+.newRelease{
+    background-color: var(--brightGreen);
+    color: var(--leftScreenBG);
+    padding: 0.3vw 0.8vw;
+    border-radius: 2vw;
+    font-size: 0.9vw;
+    font-weight: bolder;
+}
+.newRelease:hover{
+    background-color: var(--accentColor);
+    color: var(--brightGreen);
+    cursor: pointer;
+}
+.releaseBtn{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.songListUL{
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+    gap: 1vw;
+    justify-content: start;
+    align-items: center;
+    height: 3vw;
+}
+.songName{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 0.2vw;
+    font-size: 0.9vw;
+}
+.songPoster img{
+    width:4vw;
+    height: 3vw;
+}
+.playMusic{
+    color: var(--leftScreenBG);
+    background-color: var(--brightGreen);
+    /* padding: 0.3vw 0; */
+    border-radius: 2vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    font-size: 0.9vw;
+    font-weight: bolder;
+    width: 2vw;
+}
+.playMusic:hover{
+    background-color: var(--accentColor);
+    color: var(--brightGreen);
+    cursor: pointer;
+}
+.songId{
+    color: grey;
+}
+.songBreak{
+    width: 60%;
+    border:none;
+    background-color: grey;
+    height: 0.1vw;
+}

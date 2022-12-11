@@ -1,0 +1,32 @@
+:root{
+    --brightGreen:#4E9F3D;
+    --accentColor:#1E5128;
+    --leftScreenBG:#191A19;
+} 
+.barChart{
+    height: 18vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    align-items:flex-end;
+}
+
+.barChartLabel{
+    display: flex;
+    justify-content: space-around;
+    gap: 12vw;
+    align-items: center;
+    width: 100%;
+}
+
+.optionsIcon{
+    background-color: var(--brightGreen);
+    padding: 0.3vw 0.8vw;
+    border-radius: 2vw;
+}
+
+.optionsIcon:hover{
+    cursor: pointer;
+    background-color: var(--accentColor);
+    color: var(--brightGreen);
+}

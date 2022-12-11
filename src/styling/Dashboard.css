@@ -1,0 +1,127 @@
+:root{
+    --brightGreen:#4E9F3D;
+    --accentColor:#1E5128;
+    --backgroundColor:#D8E9A8;
+    --leftScreenBG:#191A19;
+}
+
+.mainBox{
+    display: flex;
+    width: 92vw;
+    height: 99vh;
+    color: white;
+}
+.rightScreen{
+    flex:0 1 20em ;
+    background-color: var(--leftScreenBG);
+}
+.leftScreen{
+    flex: 1 0 20em;
+    margin: 3vw;
+    margin-top:8vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1vw;
+}
+.leftScreen1{
+    grid-column: 1/2;
+}
+.leftScreen2{
+    grid-column: 2/-1;
+}
+.leftScreen3{
+    grid-column: 1/1;
+}
+.leftScreen4{
+    grid-column: 2/4;
+}
+.leftScreen5{
+    grid-column: 4/-1;
+}
+.leftScreen div{
+    background-color: var(--leftScreenBG);
+    border-radius: 2vw;
+}
+
+.chart1Container{
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.musicDetails{
+    display: flex;
+    justify-content:space-around;
+    font-size: 3vw;
+    border-radius: 2vw;
+}
+
+.streamsText{
+    color: white;
+    font-size: 1vw;
+    display: flex;
+    flex-flow: column wrap;
+}
+.streamsText span{
+    font-size: 2.5vw;
+}
+.musicIcons{
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    font-size: 2vw;
+    background-color: var(--brightGreen);
+    
+}
+
+.musicIcons *:hover{
+    cursor: pointer;
+}
+.labels{
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 1vw;
+}
+.showMore{
+    color: var(--leftScreenBG);
+    background-color: var(--brightGreen);
+    padding: 0.3vw 0.8vw;
+    border-radius: 2vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    font-size: 0.9vw;
+    font-weight: bolder;
+}
+.showMore:hover{
+    background-color: var(--accentColor);
+    color: var(--brightGreen);
+}
+.sliders{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.8vw;
+    margin-top: 0.5vw;
+}
+
+
+.clearingAndEarning{
+    display: flex;
+    gap: 12vw;
+    justify-content:space-around;
+}
+
+.meter{
+    margin: 0.3vw 3vw;
+    width: 75%;
+    height: 1.5vh;
+}
+meter::-webkit-meter-optimum-value {
+  background: var(--brightGreen);
+}
+meter::-moz-meter-bar { /* Firefox Pseudo Class */
+  background-color: var(--brightGreen);
+}
